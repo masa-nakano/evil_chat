@@ -6,8 +6,9 @@
   "name": "evil_chat",
   "private": true,
   "dependencies": {
-    "@rails/webpacker": "^3.5",
-    "normalize.css": "^7.0.0"
+    "@rails/webpacker": "3.5",
+    "normalize.css": "^7.0.0",
+    "npm": "^6.0.1"
   },
   "scripts": {
     "lint-staged": "$(yarn bin)/lint-staged"
@@ -33,7 +34,6 @@
     "lint-staged"
   ],
   "devDependencies": {
-    "webpack-dev-server": "^2.11.2",
     "babel-eslint": "^8.0.1",
     "eslint": "^4.8.0",
     "eslint-config-airbnb-base": "^12.0.1",
@@ -45,6 +45,7 @@
     "pre-commit": "^1.2.2",
     "prettier": "^1.7.3",
     "stylelint": "^8.1.1",
-    "stylelint-config-standard": "^17.0.0"
+    "stylelint-config-standard": "^17.0.0",
+    "webpack-dev-server": "2.11.2"
   }
 }
