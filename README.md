@@ -11,3 +11,14 @@
 - `frontend/`ディレクトリではなく`app/javascript/`ディレクトリで実装
 - 開発用サーバー立ち上げには`foreman`を使用
 - Herokuへのデプロイは未対応
+
+### 起動方法
+1. postgresql起動  
+
+2. foreman起動  
+```
+bundle exec foreman start
+```
+
+3. ブラウザでアクセス  
+http://localhost:5000/
